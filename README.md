@@ -27,21 +27,26 @@
 <img src="https://i.imgur.com/MPBrx6J.png" height="80%" width="80%" alt=""/>
 
 <h2> Flag 5 </h2>
-<b>Action: </b>  <br />
+<b>Action: </b> To locate the script file, I will use the <b>find</b> command to search through the current user's directories. Once identified, I will debug the script file using <b>nano</b>. Additionally, I will use the <b>chmod +x</b> command to grant executable permissions to the file, allowing me to run the script. <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/KAKfkgv.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/aAW67R2.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/nLqEo22.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/CgeZNWv.png" height="80%" width="80%" alt=""/>
 
 <h2> Flag 6 </h2>
-<b>Action: </b>  <br />
+<b>Action: </b> To find this flag, I will switch to the sysadmin user using the password obtained along with flag_5 after running the script file. I will then inspect the aliases using the <b>alias</b> command and execute any suspicious alias to generate the flag. <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/OvQV71l.png" height="80%" width="80%" alt=""/>
 
 <h2> Flag 7 </h2>
-<b>Action: </b>  <br />
+<b>Action: </b> To find an exploit to gain root access, I will first check the user's sudo permissions using the <b>sudo -l</b> command. This will help identify any potential privileges or misconfigurations that can be exploited to escalate privileges. After discovering that I can run the <b>sudo less</b> command, I will leverage it to escalate privileges. I will create a file using the <b>touch</b> command that allows me to execute commands or manipulate the system, enabling me to log in as the root user. <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/eX9RzmI.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/YOzxaqq.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/pQJP8Cs.png" height="80%" width="80%" alt=""/>
 
 <h2> Flag 8 </h2>
-<b>Action: </b>  <br />
+<b>Action: </b> For the final flag, I will compile all the flags found into a single file. Then, I will use <b>john the ripper</b> to crack the hashes within the file, ultimately generating the final flag.<br />
 <p align="center">
 <img src="https://i.imgur.com/.png" height="80%" width="80%" alt=""/>
