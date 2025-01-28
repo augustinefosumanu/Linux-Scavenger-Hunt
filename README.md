@@ -45,8 +45,3 @@
 <img src="https://i.imgur.com/eX9RzmI.png" height="80%" width="80%" alt=""/>
 <img src="https://i.imgur.com/YOzxaqq.png" height="80%" width="80%" alt=""/>
 <img src="https://i.imgur.com/pQJP8Cs.png" height="80%" width="80%" alt=""/>
-
-<h2> Flag 8 </h2>
-<b>Action: </b> For the final flag, I will compile all the flags found into a single file. Then, I will use <b>john the ripper</b> to crack the hashes within the file, ultimately generating the final flag.<br />
-<p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="80%" alt=""/>
