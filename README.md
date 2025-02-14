@@ -1,4 +1,7 @@
-# Linux Scavenger Hunt
+# Linux System CTF
+
+<h2> Skills </h2>
+
 <h2> Flag 1 </h2>
 <b>Task: </b>
 Finding this flag is imperative to moving on quickly, as it contains the passwords from users before they were hacked. Luckily, it doesn't have a great hiding spot.
